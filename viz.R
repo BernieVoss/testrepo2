@@ -21,3 +21,5 @@ grp_means |>
   ggplot(aes( x = Happiness, y = mean_of_total ) ) +
   geom_bar(stat = "identity") +
   facet_wrap( vars( category ) )
+
+# Hi there!
